@@ -25,7 +25,7 @@ const useResults = () => {
     // Initial Search 
     useEffect(() => {
         searchApi('Pizza');
-    });
+    }, []);
 
     return [
         searchApi,
