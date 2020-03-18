@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native';
-import { BorderlessButton } from 'react-native-gesture-handler';
 
 const ResultDetail = ({ result }) => {
     return (
